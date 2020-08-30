@@ -19,7 +19,7 @@ spec:
         io.kompose.service: php-host
     spec:
       containers:
-      - image: kompir/php-host:%IMAGE-PLACEHOLDER%
+      - image: 4sYnSw9p67/php-host:%IMAGE-PLACEHOLDER%
         name: php-host
         ports:
         - containerPort: 9000
